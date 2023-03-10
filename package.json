@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "mac": "electron-builder --mac"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^23.1.2"
+    "electron": "^23.1.2",
+    "electron-builder": "^23.6.0"
   }
 }
